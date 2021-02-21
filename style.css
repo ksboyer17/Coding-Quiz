@@ -1,3 +1,32 @@
+* {
+    background-color: black;
+    font-family: 'Indie Flower', cursive;
+}
 h1 {
-    color: aqua;
+    color: yellow;
+    text-align: center;
+}
+
+
+.stormtrooper {
+    height: 500px;
+    width: 100%;
+    background-image: url("./assets/photo-1577387195075-2ebe489a1198.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.container {
+    display: block;
+    position: relative;
+    border-radius: 10px;
+}
+
+button {
+    color:black;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
 }
